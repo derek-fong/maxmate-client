@@ -1,4 +1,6 @@
-# maxmate
+# maxmate-client
+[![CircleCI](https://circleci.com/gh/alppix/maxmate-client.svg?style=svg)](https://circleci.com/gh/alppix/maxmate-client)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/99dac478bb5bc5760209/test_coverage)](https://codeclimate.com/github/alppix/maxmate-client/test_coverage)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
 
@@ -17,10 +19,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
