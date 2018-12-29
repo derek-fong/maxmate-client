@@ -42,6 +42,28 @@ jobs:
           name: Notify Code Climate Test Reporter - After Build
           command: ./cc-test-reporter after-build --exit-code $?
 
+  deploy_prod:
+    executor: default_executor
+    steps:
+      - checkout
+      - run_npm_install_with_cache
+      - run:
+          name: Install Firebase NPM Dependencies
+          command: npm --prefix functions install
+      - run:
+          name: Build Artifacts
+          command: |
+            npm run build:ssr
+            mkdir -p functions/dist/imports
+            cp -a dist/browser functions/dist/imports
+            cp -a dist/server functions/dist/imports
+            mv dist/browser/index.html dist/browser/index-browser.html
+      - deploy:
+          name: Deploy to Firebase
+          command: |
+            npm run firebase -- use prod --token="$FIREBASE_TOKEN"
+            npm run firebase -- deploy --token="$FIREBASE_TOKEN" --non-interactive
+
   lint:
     executor: default_executor
     steps:
@@ -92,3 +114,6 @@ workflows:
           filters:
             branches:
               only: master
+      - deploy_prod:
+          requires:
+            - release

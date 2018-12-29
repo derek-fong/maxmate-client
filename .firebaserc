@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "ax-maxmate-dev",
+    "prod": "ax-maxmate"
+  }
+}

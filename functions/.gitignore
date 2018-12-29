@@ -1,0 +1,19 @@
+# Compiled output
+/dist
+/tmp
+**/*.js
+**/*.js.map
+
+# Dependencies
+/node_modules
+
+# Misc
+npm-debug.log
+firebase-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Typescript v1 declaration files
+/typings
