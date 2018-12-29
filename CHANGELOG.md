@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/alppix/maxmate-client/compare/0.1.0...0.2.0) (2018-12-29)
+
+
+### Features
+
+* **core:** add Angular Universal ([#4](https://github.com/alppix/maxmate-client/issues/4)) ([bf497e0](https://github.com/alppix/maxmate-client/commit/bf497e0))
+
 # [0.1.0](https://github.com/alppix/maxmate-client/compare/0.0.0...0.1.0) (2018-12-28)
 
 
