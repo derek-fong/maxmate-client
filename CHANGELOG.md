@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/alppix/maxmate-client/compare/0.2.0...1.0.0) (2018-12-29)
+
+
+### Features
+
+* **core:** deploy app to Firebase ([#5](https://github.com/alppix/maxmate-client/issues/5)) ([3b56995](https://github.com/alppix/maxmate-client/commit/3b56995))
+
+
+### BREAKING CHANGES
+
+* **core:** Deploy the app to Firebase.
+
 # [0.2.0](https://github.com/alppix/maxmate-client/compare/0.1.0...0.2.0) (2018-12-29)
 
 
