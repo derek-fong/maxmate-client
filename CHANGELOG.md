@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/alppix/maxmate-client/compare/1.0.0...1.1.0) (2018-12-30)
+
+
+### Features
+
+* **core:** setup CoreModule ([#6](https://github.com/alppix/maxmate-client/issues/6)) ([1526b3d](https://github.com/alppix/maxmate-client/commit/1526b3d))
+
 # [1.0.0](https://github.com/alppix/maxmate-client/compare/0.2.0...1.0.0) (2018-12-29)
 
 
