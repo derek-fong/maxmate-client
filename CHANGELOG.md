@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/alppix/maxmate-client/compare/1.1.0...1.2.0) (2018-12-30)
+
+
+### Features
+
+* **shared:** setup SharedModule ([#7](https://github.com/alppix/maxmate-client/issues/7)) ([9233d54](https://github.com/alppix/maxmate-client/commit/9233d54))
+
 # [1.1.0](https://github.com/alppix/maxmate-client/compare/1.0.0...1.1.0) (2018-12-30)
 
 
